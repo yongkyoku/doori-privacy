@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>도어리(DOORI) 개인정보 처리방침 · Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1e21; --muted: #5f6368; --line: #e3e5e8;
+    --accent: #0b57d0; --note-bg: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0c0f12; --fg: #e6e8ea; --muted: #9aa0a6; --line: #2a2f35;
+      --accent: #8ab4f8; --note-bg: #16191d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    line-height: 1.7; font-size: 16px;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 2.2em 0 0.6em; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  nav.lang { margin: 0 0 32px; font-size: 0.95rem; }
+  nav.lang a { color: var(--accent); text-decoration: none; margin-right: 16px; }
+  nav.lang a:hover { text-decoration: underline; }
+  table { border-collapse: collapse; width: 100%; margin: 0.8em 0; font-size: 0.95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 12px; text-align: left; vertical-align: top; }
+  th { background: var(--note-bg); }
+  .table-wrap { overflow-x: auto; }
+  .note { background: var(--note-bg); border-left: 3px solid var(--accent);
+    padding: 12px 16px; border-radius: 4px; margin: 1em 0; }
+  hr.split { border: none; border-top: 1px solid var(--line); margin: 56px 0; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+
+<nav class="lang" aria-label="언어 선택 / Language">
+  <a href="#ko">한국어</a>
+  <a href="#en">English</a>
+</nav>
+
+<!-- ==================== 한국어 ==================== -->
+<section id="ko" lang="ko">
+
+<h1>도어리(DOORI) 개인정보 처리방침</h1>
+<p class="sub">시행일: 2026년 7월 18일</p>
+
+<h2>1. 수집하는 개인정보</h2>
+<p>도어리는 <strong>어떠한 개인정보도 수집하지 않습니다.</strong> 회원가입·로그인이 없으며, 광고·분석(Analytics)·추적 SDK를 포함하지 않습니다.</p>
+
+<h2>2. 데이터의 저장 위치</h2>
+<p>앱이 저장하는 정보는 <strong>전부 사용자의 기기 안에만</strong> 있으며 외부로 전송되지 않습니다.</p>
+<div class="table-wrap">
+<table>
+  <tr><th>항목</th><th>내용</th><th>저장 위치</th></tr>
+  <tr><td>사용 기록</td><td>문 열림/닫힘 등 조작 이력</td><td>기기 로컬 저장소</td></tr>
+  <tr><td>앱 설정</td><td>테마·글자 크기·언어</td><td>기기 로컬 저장소</td></tr>
+  <tr><td>연결 설정</td><td>자동문 장치의 로컬 IP·포트</td><td>기기 로컬 저장소</td></tr>
+  <tr><td>비밀번호</td><td><strong>저장하지 않음</strong> — 자동문 장치가 검증하며, 앱은 실행 중 메모리에서만 사용하고 종료 시 사라집니다</td><td>저장 안 함</td></tr>
+</table>
+</div>
+<p>앱을 삭제하면 위 정보는 기기에서 함께 삭제됩니다.</p>
+
+<h2>3. 통신 방식</h2>
+<p>도어리는 사용자와 <strong>같은 로컬 WiFi 네트워크에 있는 자동문 제어 장치</strong>와만 직접 통신합니다(TCP, 포트 50001). 제작사를 포함한 어떤 외부 서버로도 데이터를 보내지 않으며, 클라우드 계정이나 원격 서버를 사용하지 않습니다.</p>
+
+<h2>4. 권한 사용</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>권한</th><th>사용 목적</th></tr>
+  <tr><td>로컬 네트워크 접근 (iOS)</td><td>같은 WiFi에 있는 자동문 장치에 연결하기 위함. 이 권한 없이는 앱이 동작하지 않습니다.</td></tr>
+  <tr><td>네트워크 상태 확인</td><td>WiFi 연결이 끊기거나 복구될 때 자동문과의 연결을 재수립하기 위함.</td></tr>
+  <tr><td>WiFi 연결 구성 (iOS Hotspot Configuration / Android 네트워크 변경)</td><td>자동문 장치가 만드는 WiFi 접속지점(AP)에 <strong>앱 안에서 바로 가입</strong>하기 위함(선택 기능). 사용자가 '연결' 버튼을 눌렀을 때만 동작하며, 가입 여부는 운영체제가 띄우는 확인창에서 사용자가 직접 정합니다.</td></tr>
+</table>
+</div>
+<p>이 권한들은 오직 자동문 제어 목적으로만 쓰이며, 네트워크를 탐색해 정보를 수집하지 않습니다. 앱은 주변 WiFi 목록을 읽지 않고, 지정된 자동문 장치의 접속지점에만 가입합니다.</p>
+<div class="note">
+<strong>⚠ WiFi 가입 시 알아두실 점.</strong> 자동문 장치의 접속지점에 가입하면 <strong>휴대폰의 WiFi 연결이 그 접속지점으로 바뀝니다.</strong> 자동문 장치는 인터넷에 연결돼 있지 않으므로, 가입한 동안에는 기존 WiFi가 끊기고 다른 앱은 이동통신(셀룰러) 데이터를 쓰게 됩니다(WiFi 전용 기기라면 인터넷이 일시적으로 끊깁니다). 도어리 앱을 종료하거나 연결을 해제하면 원래 WiFi로 자동 복귀합니다.
+</div>
+
+<h2>5. 제3자 제공·위탁</h2>
+<p>수집하는 정보가 없으므로 제3자에게 제공하거나 처리를 위탁하는 개인정보도 없습니다.</p>
+
+<h2>6. 아동의 개인정보</h2>
+<p>개인정보를 수집하지 않으므로 아동을 포함한 어떤 이용자의 정보도 수집·이용하지 않습니다.</p>
+
+<h2>7. 방침 변경</h2>
+<p>본 방침이 변경되면 이 페이지에 갱신된 내용과 시행일을 게시합니다.</p>
+
+<h2>8. 문의</h2>
+<p>yongkyo ku · <a href="mailto:apracsix@gmail.com">apracsix@gmail.com</a></p>
+
+</section>
+
+<hr class="split">
+
+<!-- ==================== English ==================== -->
+<section id="en" lang="en">
+
+<h1>DOORI Privacy Policy</h1>
+<p class="sub">Effective date: July 18, 2026</p>
+
+<h2>1. Information We Collect</h2>
+<p>DOORI collects <strong>no personal information.</strong> There is no account or sign-in, and the app contains no advertising, analytics, or tracking SDKs.</p>
+
+<h2>2. Data Stored on Your Device</h2>
+<p>Everything the app stores stays <strong>on your device only</strong> and is never transmitted anywhere.</p>
+<div class="table-wrap">
+<table>
+  <tr><th>Item</th><th>Detail</th><th>Where</th></tr>
+  <tr><td>Usage history</td><td>Door open/close operation log</td><td>Local device storage</td></tr>
+  <tr><td>App settings</td><td>Theme, font size, language</td><td>Local device storage</td></tr>
+  <tr><td>Connection settings</td><td>Local IP and port of the door controller</td><td>Local device storage</td></tr>
+  <tr><td>Password</td><td><strong>Not stored</strong> — verified by the door controller; held only in memory while the app runs</td><td>Not stored</td></tr>
+</table>
+</div>
+<p>Deleting the app removes this data from your device.</p>
+
+<h2>3. How the App Communicates</h2>
+<p>DOORI communicates only with an automatic-door controller on <strong>the same local WiFi network</strong> (TCP, port 50001). No data is sent to any external server, including the developer's. There is no cloud account or remote server.</p>
+
+<h2>4. Permissions</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>Permission</th><th>Purpose</th></tr>
+  <tr><td>Local Network (iOS)</td><td>To connect to the door controller on your WiFi. The app cannot function without it.</td></tr>
+  <tr><td>Network state</td><td>To re-establish the connection when WiFi drops and returns.</td></tr>
+  <tr><td>WiFi configuration (iOS Hotspot Configuration / Android change network state)</td><td>To let you <strong>join the door controller's WiFi access point from inside the app</strong> (optional convenience). It runs only when you tap the connect button, and the operating system asks you to confirm the join.</td></tr>
+</table>
+</div>
+<p>These permissions are used solely to control the door; the app does not scan the network to gather information. The app does not read your list of nearby WiFi networks — it only joins the access point of the designated door controller.</p>
+<div class="note">
+<strong>⚠ Note about joining the controller's WiFi.</strong> When you join the door controller's access point, <strong>your phone's WiFi connection switches to that access point.</strong> The controller is not connected to the internet, so while you are joined your previous WiFi is disconnected and other apps fall back to cellular data (on WiFi-only devices, internet access is temporarily unavailable). Your phone returns to its normal WiFi automatically when you disconnect or close the app.
+</div>
+
+<h2>5. Third Parties</h2>
+<p>Because no information is collected, none is shared with or processed by third parties.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>The app collects no personal information from anyone, including children.</p>
+
+<h2>7. Changes</h2>
+<p>Any change to this policy will be posted on this page with a new effective date.</p>
+
+<h2>8. Contact</h2>
+<p>yongkyo ku · <a href="mailto:apracsix@gmail.com">apracsix@gmail.com</a></p>
+
+</section>
+
+<footer>© 2026 yongkyo ku — DOORI Automatic Door Controller</footer>
+
+</main>
+</body>
+</html>
